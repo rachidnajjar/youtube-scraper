@@ -3,8 +3,8 @@ Created on 24/12/2018
 
 @author: Rachid
 '''
-from bs4 import BeautifulSoup as bs
 import requests
+from bs4 import BeautifulSoup as bs
 from pytube import YouTube
 
 # query YouTube for a particular search string
