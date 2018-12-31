@@ -4,8 +4,8 @@ Created on 29 déc. 2018
 @author: rachid
 '''
 import sys
+import datetime
 from classLibrary import Personne
-from datetime import date
 
 def main(args=None):
     """The main routine."""
@@ -17,8 +17,7 @@ def main(args=None):
     # Do argument parsing here (eg. with argparse) and anything else
     # you want your project to do.
 
-    
-    p = Personne("NAJJAR", "Rachid", date(1974, 10, 24))
+    p = Personne("NAJJAR", "Rachid", datetime.date(1974, 10, 24))
     print(p.Nom)
     print(p.Prenom)
     print(p.DateNaissance)
